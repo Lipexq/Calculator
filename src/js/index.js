@@ -1,6 +1,6 @@
 function insert(num){
    let numberJs =  document.getElementById('result').innerHTML;
-   document.getElementById('result').innerHTML = numberJs + num;
+   let resultJs2 =  document.getElementById('result').innerHTML = numberJs + num;
 };
 
 function clean(){
@@ -19,3 +19,4 @@ function result(){
          document.getElementById('result').innerHTML = eval(resultJs);
     }
 }
+

@@ -56,6 +56,9 @@ h2{
     padding-left: 17px;
     border: 1px solid #5e2129;
     font-size: 25px;
+    max-width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .button:hover{
@@ -70,10 +73,6 @@ a{
     margin-bottom: 10px;
     color: black;
     padding-top: 20px;
-}
-
-.audios{
-    display: none;
 }
 
 .footer{
